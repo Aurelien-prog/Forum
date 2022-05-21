@@ -1,0 +1,200 @@
+body{
+    background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #649baf;
+    margin: 0px;
+}
+.imgbulle{
+    width: 30px;
+}
+table tr td{
+    border-collapse: collapse;
+    padding: 0px 0px 0px 10px;
+}
+table{
+    width: 100%;    
+    min-height: 50px;
+    border-spacing : 10px;
+}
+fieldset{
+    border-radius: 10px;
+    border: solid 2px;
+    margin: 25px 25px;
+    border-color: #649baf;
+}
+a{
+    text-decoration: none;
+    color: #323C46;
+}
+
+/*Haut des pages*/
+header{
+    background-color: #649baf;
+    width: 100%;
+    height: 75px;
+    font-weight: bold;
+}
+.connect{
+    float: right;
+    margin: 10px 10px 0px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.connect2{
+    float: right;
+    margin: 10px 15px 0px 0px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline 2.5px;
+}
+#btndisconnect{
+    background-color: #323c46;
+    color: #ffffff;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;;
+    font-size: 12px;
+    float: right;
+    margin: -23px 15px 0px 0px;
+}
+header #titre{
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+header img{
+    width: 100px;
+    float:  left;
+    margin: 5px;
+}
+.btnconnect{
+    background-color: #323c46;
+    color: #ffffff;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;;
+    font-size: 12px;
+}
+
+/*page de nouveau compte*/
+.formulaire{
+    margin: 4px 0px 0px 10px;
+    border-radius: 25px;
+    border-style: none;
+    padding: 3px 25px;
+    background-color: #649baf;
+    color: #ffffff;
+}
+.formulaire::placeholder{
+    color: #323c46;
+}
+.bouton{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 25px;
+    color: #323c46;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+#BtnSubmit{
+    margin: 0px 5px 0px 10px;
+}
+
+/*statistiques*/
+th{
+    background-color:lightgray;
+    width: 100%;    
+    height: 30px;
+}
+.stat, th, .stat2{
+    border: solid #649baf 2px;
+    border-collapse: collapse;
+}
+.stat{    
+    width: 95%;
+    margin: 0px 0px 15px 0px;
+}
+.stat2{
+    width: 50%;
+    height: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+.article{
+    border-radius: 15px;
+    border-style: none;
+    padding: 5px 25px;
+    color: #ffffff;
+    background-color: #649baf;
+    font-weight: bold;
+    float: right;
+    margin: 15px 25px 20px 20px;
+}
+
+/*index*/
+#last{
+    font-size: 12px;
+}
+
+.newmsg{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 25px;
+    color: #323c46;
+    background-color: #ffffff;
+    font-weight: bold;
+    float: right;
+    margin: -10px 50px 25px 0px;
+}
+
+.newart{
+    border-radius: 10px;
+    border-style: none;
+    color: #323c46;
+    background-color: #ffffff;
+    font-weight: bold;
+    margin: -10px 50px 25px 0px;
+    padding: 5px 25px;
+}
+
+.textareanewart{
+    width: 674px;
+    height: 339px;
+    resize: none;
+}
+
+.textareanewrep{
+    border-radius: 10px;
+    color: #323c46;
+    background-color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+    width: 94.75%;
+    height: 100px;
+    resize: none;
+    border-color: #649baf;
+    border-width: 2px;
+}
+
+#date{
+    font-size: 13px;
+    width: 200px;
+    font-weight: normal;
+}
+#NomPrenom{
+    font-weight: bold;
+    width: 200px;
+}
+
+.cadre{
+    border: 2px #649baf solid;
+    border-collapse: collapse;
+    padding: 10px;
+}

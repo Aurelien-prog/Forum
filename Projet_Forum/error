@@ -1,0 +1,2 @@
+[Fri May 21 09:21:23.389561 2021] [mpm_prefork:notice] [pid 628] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Fri May 21 09:21:23.389615 2021] [core:notice] [pid 628] AH00094: Command line: '/usr/sbin/apache2'
